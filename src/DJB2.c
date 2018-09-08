@@ -13,7 +13,7 @@ unsigned long DJB2 (unsigned char *str) {
 	return hash;
 }
 
-/*		TEST
+
 int main (void) {
 
 	unsigned long hash = DJB2("hello, world!");
@@ -21,5 +21,5 @@ int main (void) {
 
 	return 0;
 }
-*/
+
 

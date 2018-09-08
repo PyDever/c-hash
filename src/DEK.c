@@ -16,11 +16,11 @@ unsigned long DEK (unsigned char *str) {
 	return hash;
 }
 
-/*		TEST
+
 int main (void) {
 	unsigned long hash = DEK("hello");
 
 	printf("%lu\n", hash);
 	return 0;
 }
-*/
+
