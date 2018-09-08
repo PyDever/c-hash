@@ -18,7 +18,7 @@ unsigned long DEK (unsigned char *str) {
 
 
 int main (void) {
-	unsigned long hash = DEK("hello");
+	unsigned long hash = DEK("super secret password");
 
 	printf("%lu\n", hash);
 	return 0;

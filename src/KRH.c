@@ -17,7 +17,7 @@ unsigned long KRH (unsigned char *str) {
 }
 
 int main (void) {
-	unsigned long hash = KRH("hello");
+	unsigned long hash = KRH("super secret password");
 
 	printf("%lu\n", hash);
 	return 0;
